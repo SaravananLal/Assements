@@ -17,17 +17,17 @@ public class QuestionBank {
 	public String QuestionId(int id) {
 		question = new String[10];
 
-		question[0] = "What is Java? \n1.Java is Procedure Oriented\n2.Java is Object Oriented language"
+		question[0] = "I. What is Java? \n1.Java is Procedure Oriented\n2.Java is Object Oriented language"
 				+ "\n3.Java is a not a user language \n4.None of these";
-		question[1] = "What is JVM ? "
-				+ "\n1.Virtual Program      2.Virtual IDE\n3.Java Virtual Machine        4.None of these.";
-		question[2] = "What is JRE ? "
+		question[1] = "II. What is JVM ? "
+				+ "\n1.Virtual Program           2.Virtual IDE\n3.Java Virtual Machine        4.None of these.";
+		question[2] = "III. What is JRE ? "
 				+ "\n1.Java Runtime Execution      2.Java Runnable edition IDE\n3.Java Runnable Environment        4.Java Runtime Environment.";
-		question[3] = "Select option which suits features of JAVA ? "
+		question[3] = "IV. Select option which suits features of JAVA ? "
 				+ "\n1.PlatformDependent      2.Procedure orinented \n3.Platform Independent        4.None of these";
-		question[4] = "Select option which suits Principle of JAVA ? "
+		question[4] = "V. Select option which suits Principle of JAVA ? "
 				+ "\n1.NotScalable      2.Procedure orinented \n3.not listed        4.Polymorphism";
-		question[5] = "What is Compiler ? "
+		question[5] = "VI. What is Compiler ? "
 				+ "\n1.it is tool      2.converting byte code to machine code \n3.translating user level to intermediate level       4.None of these";
 
 		for (int i = 0; i < question.length; i++) {

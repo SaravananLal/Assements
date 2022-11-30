@@ -25,10 +25,10 @@ public class ExamSystemMain {
 				String useropt = ScannerIp.next();
 
 				if (useropt.equals(quesbank.answerData(counter))) {
-					System.out.println("Great Answer is Right!");
+					System.out.println("Well done! Answer is Right!\n\n Please proceed with Next Question\n");
 					counter++;
 				} else {
-					System.out.println("Please try again once!");
+					System.out.println("Sorry your Answer is not Valid!\n\n Please try it once again\n");
 					counter = counter - 0;
 				}
 			}
